@@ -1,0 +1,52 @@
+In file included from C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\Main.cpp:1:0:
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:14:35: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+     unsigned char rawData[16] = {0};
+                                   ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:16:39: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool cubeToPrint[5][5][5] = {{{0}}};
+                                       ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:18:40: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool shootMatrix1[5][5][5] = {{{0}}};
+                                        ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:20:40: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool shootMatrix2[5][5][5] = {{{0}}};
+                                        ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:31:22: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+     int posPlayer1 = 12;
+                      ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:32:22: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+     int posPlayer2 = 12;
+                      ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:14:35: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+     unsigned char rawData[16] = {0};
+                                   ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:16:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+     bool cubeToPrint[5][5][5] = {{{0}}};
+                                       ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:18:40: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+     bool shootMatrix1[5][5][5] = {{{0}}};
+                                        ^
+C:\Users\aloys\Google Drive\Documentos\Programa��o\Programs C && C++\Meus Programas\CubeProject\SerialSend.h:20:40: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+     bool shootMatrix2[5][5][5] = {{{0}}};
+                                        ^
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x28): undefined reference to `Cube::Cube(Serial*)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x38): undefined reference to `Cube::Begin()'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x56): undefined reference to `Cube::Start()'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x6a): undefined reference to `Cube::Menu()'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x80): undefined reference to `Cube::PrintScore()'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0xa8): undefined reference to `Cube::Print()'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0xca): undefined reference to `Cube::timediff(long, long)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x110): undefined reference to `Cube::PlayerGoUp(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x140): undefined reference to `Cube::PlayerGoDown(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x170): undefined reference to `Cube::PlayerGoLeft(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x1a0): undefined reference to `Cube::PlayerGoRight(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x1d0): undefined reference to `Cube::PlayerShoot(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x200): undefined reference to `Cube::PlayerGoUp(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x230): undefined reference to `Cube::PlayerGoDown(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x260): undefined reference to `Cube::PlayerGoLeft(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x290): undefined reference to `Cube::PlayerGoRight(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x2c0): undefined reference to `Cube::PlayerShoot(int)'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x2d0): undefined reference to `Cube::GameControl()'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x2e0): undefined reference to `Cube::PrintMatrixShoot()'
+C:\Users\aloys\AppData\Local\Temp\ccseNocb.o:Main.cpp:(.text+0x2ed): undefined reference to `Cube::WritePlayers()'
+collect2.exe: error: ld returned 1 exit status

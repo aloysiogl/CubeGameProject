@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1463870880 source:c:\users\aloysio\onedrive\programação\programs c\meus programas\cubeproject\serial.cpp
+	"SerialClass.h"
+
+1465783236 c:\users\aloysio\onedrive\programação\programs c\meus programas\cubeproject\serialclass.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1466649254 source:c:\users\aloysio\onedrive\programação\programs c\meus programas\cubeproject\main.cpp
+	"SerialSend.h"
+
+1465728200 source:c:\users\aloysio\onedrive\programação\programs c\meus programas\cubeproject\serialsend.cpp
+	"SerialSend.h"
+
+1465728036 c:\users\aloysio\onedrive\programação\programs c\meus programas\cubeproject\serialsend.h
+	"SerialClass.h"
+	<tchar.h>
+	<time.h>
+
+1463454394 source:c:\users\aloysio\onedrive\programação\programs c\meus programas\cubeproject\cubecontrol.cpp
+	"CubeControl.h"
+
+1463454403 c:\users\aloysio\onedrive\programação\programs c\meus programas\cubeproject\cubecontrol.h
+	"SerialSend.h"
+
+1466649254 source:c:\users\aloysio\onedrive\programação\programs c && c++\meus programas\cubeproject\main.cpp
+	"SerialSend.h"
+
+1465728036 c:\users\aloysio\onedrive\programação\programs c && c++\meus programas\cubeproject\serialsend.h
+	"SerialClass.h"
+	<tchar.h>
+	<time.h>
+
+1465783236 c:\users\aloysio\onedrive\programação\programs c && c++\meus programas\cubeproject\serialclass.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1463870880 source:c:\users\aloysio\onedrive\programação\programs c && c++\meus programas\cubeproject\serial.cpp
+	"SerialClass.h"
+
+1465728200 source:c:\users\aloysio\onedrive\programação\programs c && c++\meus programas\cubeproject\serialsend.cpp
+	"SerialSend.h"
+
