@@ -1,18 +1,23 @@
 #include"SerialSend.h"
 
 int main(){
-    //Creating the objects
+    //Creating serial connection objects
     Serial* SP;
     Cube cube(SP);
-    //Needed variables
+
+    //Needed time and leave variables
     int leave;
     clock_t ti, tf;
-    //Returning error messages
+
+    //Returning error messages in connection process
     int conectErr = cube.Begin();
     if (conectErr)
         return conectErr;
+
     //Beginning game
     cube.Start();
+
+    //Go back to the menu loop
     do{
         int game = 1;
         leave = cube.Menu();
@@ -20,11 +25,15 @@ int main(){
             cube.PrintScore();
         else game = 0;
             tf = clock();
+
+        //Game loop
         while(game){
             cube.Print();
             ti = clock();
             if (cube.timediff(tf, ti) > 40){
             tf = clock();
+
+                //Getting keystrikes
                 if (GetAsyncKeyState(VK_UP)){
                     cube.PlayerGoUp(0);
                 }
@@ -56,10 +65,16 @@ int main(){
                     cube.PlayerShoot(1);
                 }
             }
+
+            //Chacking if the game is over
             game = cube.GameControl();
+
+            //Printing the game state
             cube.PrintMatrixShoot();
             cube.WritePlayers();
-             if (GetAsyncKeyState(VK_ESCAPE)){
+
+            //If escape is pressed the game is over
+            if (GetAsyncKeyState(VK_ESCAPE)){
                     game = 0;
                 }
             Sleep(5);
@@ -68,6 +83,6 @@ int main(){
     return 0;
 }
 
-//Returns: 0 -> program went normal
-//         1 -> user aborted
-//         2 -> connection error
+//Program returns: 0 -> program went normal
+//                 1 -> user aborted
+//                 2 -> connection error

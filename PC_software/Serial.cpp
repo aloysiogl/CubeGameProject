@@ -74,7 +74,7 @@ Serial::Serial(int portNumber, bool trying)
 {
     //We're not yet connected
     this->connected = false;
-    //Let´s set the COM port
+    //Letï¿½s set the COM port
     sprintf(namePort, "\\\\.\\COM%d", portNumber);
 
     //Try to connect to the given port throuh CreateFile
@@ -221,7 +221,8 @@ void Serial::Flush()
     //Flush serial
     PurgeComm(this->hSerial, PURGE_RXCLEAR | PURGE_TXCLEAR);
 }
-/*lista de sites sobre serial(o último é mais importante)
+
+/*Sources list
 https://sourceforge.net/projects/libserial/
 http://www.codeproject.com/Articles/473828/Arduino-Csharp-and-Serial-Interface
 http://www.codeproject.com/Articles/992/Serial-library-for-C
@@ -238,4 +239,3 @@ https://msdn.microsoft.com/en-us/library/ff802693.aspx
 
 
 */
-
